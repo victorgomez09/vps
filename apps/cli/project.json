@@ -11,9 +11,9 @@
         "target": "node",
         "compiler": "tsc",
         "outputPath": "dist/apps/cli",
-        "main": "apps/cli/src/main.ts",
-        "tsConfig": "apps/cli/tsconfig.app.json",
-        "assets": ["apps/cli/src/assets"]
+        "outputFileName": "cli.js",
+        "main": "apps/cli/src/cli.ts",
+        "tsConfig": "apps/cli/tsconfig.app.json"
       },
       "configurations": {
         "production": {

@@ -580,3 +580,20 @@
 {"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
 {"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
 {"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"error","message":"[DCOKER-SERVICE] Name cannot be empty"}
+{"level":"error","message":"[DOCKER-SERVICE] Error cloning repo Cloning into 'coolify'...\n"}
+{"level":"error","message":"[DOCKER-SERVICE] Error cloning repo Cloning into 'coolify'...\n"}
+{"level":"error","message":"[DOCKER-SERVICE] Error cloning repo Cloning into '.'...\n"}
+{"level":"error","message":"[DOCKER-SERVICE] Error cloning repo Cloning into '.'...\n"}
+{"level":"error","message":"[DOCKER-SERVICE] Error cloning repo Cloning into '.'...\n"}
+{"level":"error","message":"[DOCKER-SERVICE] Error cloning repo Cloning into '.'...\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Repository cloned "}
+{"level":"info","message":"[DOCKER-SERVICE] Repository cloned "}
+{"level":"info","message":"[DOCKER-SERVICE] Repository cloned "}
+{"level":"info","message":"[DOCKER-SERVICE] Repository cloned "}
+{"level":"info","message":"[DOCKER-SERVICE] Repository cloned "}
+{"level":"info","message":"[DOCKER-SERVICE] Repository cloned "}
+{"level":"error","message":"[DOCKER-SERVICE] Error cloning repo Cloning into '.'...\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Repository cloned "}
+{"level":"info","message":"[DOCKER-SERVICE] Repository cloned "}
+{"level":"info","message":"[DOCKER-SERVICE] Repository cloned "}

@@ -1,4 +1,5 @@
-import { DockerRunDockerfile, DockerRunSchema } from '../models/docker.model';
+import { rmSync } from 'fs';
+import { DockerRunGit, DockerRunSchema } from '../models/docker.model';
 import { execAsync } from '../utils/child-node.util';
 import { logger } from '../utils/logger.util';
 import { removeLineBreaker } from '../utils/text.util';
@@ -81,19 +82,40 @@ class DockerService {
     return true;
   }
 
-  async runImageFromDockerfile(data: DockerRunDockerfile): Promise<boolean> {
+  async runImageFromDockerfile(data: DockerRunGit): Promise<boolean> {
     let name = data.name;
     if (!name) {
-      logger.error('Name cannot be empty');
+      logger.error('[DOCKER-SERVICE] Name cannot be empty');
       return false;
     }
-    if (data.tag) name += `:${data.tag}`;
-    if (!data.dockerfile) {
-      logger.error('Dockerfile cannot be empty');
+    if (data.version) name += `:${data.version}`;
+    if (!data.git) {
+      logger.error('[DOCKER-SERVICE] Git repository url cannot be empty');
       return false;
     }
 
-    
+    const { stderr: gitError, stdout: gitOut } = await execAsync(
+      `mkdir -p /tmp/vk8sp/${data.name} && cd /tmp/vk8sp/${data.name} && git clone ${data.git} .`,
+      { shell: 'true' }
+    );
+    if (gitError) {
+      logger.error(`[DOCKER-SERVICE] Error cloning repo ${gitError}`);
+      return false;
+    }
+
+    logger.info(`[DOCKER-SERVICE] Repository cloned ${gitOut}`);
+
+    console.log('name', name);
+    const { stderr, stdout } = await execAsync(
+      `docker build -t ${name} -f /tmp/vk8sp/${data.name}/Dockerfile .`
+    );
+    if (stderr) {
+      logger.error(`[DOCKER-SERVICE] Error building image ${stderr}`);
+      return false;
+    }
+
+    logger.info(`[DOCKER-SERVICE] Docker image created ${stdout}`);
+    rmSync(`/tmp/vk8sp/${data.name}`, { recursive: true, force: true });
     return true;
   }
 }

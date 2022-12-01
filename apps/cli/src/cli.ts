@@ -24,4 +24,18 @@ program
     });
   });
 
+program
+  .command('deploy-from-git')
+  .description('Deploy an Docker image from a Git repository')
+  .option('-n, --name <string>', 'image name to create')
+  .option('-v, --version <string>', 'version of image')
+  .option('-g, --git <string>', 'git repository url')
+  .action((args) => {
+    dockerEngine.runImageFromDockerfile({
+      name: args.name,
+      version: args.version,
+      git: args.git,
+    });
+  });
+
 program.parse();

@@ -6,8 +6,8 @@ export interface DockerRunSchema {
   name: string;
 }
 
-export interface DockerRunDockerfile {
+export interface DockerRunGit {
   name: string;
-  tag: string;
-  dockerfile: string;
+  version: string;
+  git: string;
 }
