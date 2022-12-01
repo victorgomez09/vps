@@ -1,0 +1,582 @@
+{"level":"info","message":"docker running with version: Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"error","message":"[DOCKER-SERVICE] Error deploying Docker registry, run it manually:\n        docker run -d         -p 5000:5000         --restart=always         --name registry         -v /mnt/registry:/var/lib/registry         registry:2"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployedª"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] undefined"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"data [object Object]"}
+{"level":"info","message":"data [object Object]"}
+{"level":"info","message":"data [object Object]"}
+{"level":"info","message":"data [object Object]"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"data [object Object]"}
+{"level":"info","message":"data [object Object]"}
+{"level":"info","message":"data {\"imageName\":\"postgres\",\"ports\":[\"5432:5432,\",\"1200:5432\"],\"envVariables\":[\"POSTGRES_PASSWORDpostgres\"]}"}
+{"level":"info","message":"data {\"imageName\":\"postgres\",\"ports\":[\"5432:5432\",\"1200:5432\"],\"envVariables\":[\"POSTGRES_PASSWORDpostgres\"]}"}
+{"level":"error","message":"[DOCKER-SERVICE] can't run image 'postgres'"}
+{"level":"info","message":"data {\"imageName\":\"postgres\",\"ports\":[\"5432:5432\",\"1200:5432\"],\"envVariables\":[\"POSTGRES_PASSWORD=postgres\"]}"}
+{"level":"info","message":"[DOCKER-SERVICE] 91dd8a2069ccad7bdeb9806596a789798a165d6f113bed7fe31f88577a67cc77\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"data {\"imageName\":\"postgres\",\"ports\":[\"5432:5432\",\"1200:5432\"],\"envVariables\":[\"POSTGRES_PASSWORD=postgres\"]}"}
+{"level":"info","message":"[DOCKER-SERVICE] a8d13e3ae17414b6ddc0e56dd5534485bc76be9f0807cf57e0270f3259a00a7f\n"}
+{"level":"info","message":"data {\"imageName\":\"postgres\",\"ports\":[\"5432:5432\",\"1200:5432\"],\"envVariables\":[\"POSTGRES_PASSWORD=postgres\"]}"}
+{"level":"info","message":"[DOCKER-SERVICE] f30ac2a4e7837c5b08a2ced76b900775837dab509e8099889728c8179c3850a1\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"data {\"imageName\":\"postgres\",\"ports\":[\"5432:5432\",\"1200:5432\"],\"envVariables\":[\"POSTGRES_PASSWORD=postgres\"]}"}
+{"level":"info","message":"[DOCKER-SERVICE] a45d564611a263ffd372e856e8d1a3ac0198a560ac94438a8174e36f9a8e4ded\n"}
+{"level":"info","message":"data {\"imageName\":\"postgres\",\"ports\":[\"5432:5432\",\"1200:5432\"],\"envVariables\":[\"POSTGRES_PASSWORD=postgres\"]}"}
+{"level":"info","message":"[DOCKER-SERVICE] 107c7db60fd60f937a0fe859298afcfd143c1198fbad57c4b89d9153077e6ece\n"}
+{"level":"info","message":"data {\"imageName\":\"postgres\",\"ports\":[\"5432:5432\",\"1200:5432\"],\"envVariables\":[\"POSTGRES_PASSWORD=postgres\"]}"}
+{"level":"info","message":"data.name undefined"}
+{"level":"info","message":"generated name postgres-5msd5bzbl5"}
+{"level":"info","message":"[DOCKER-SERVICE] f246f0c4f9b105bdc6b0971692e83b29bf81959c6f79c48d6505bf2089cc38e1\n"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"data {\"imageName\":\"postgres\",\"ports\":[\"5432:5432\",\"1200:5432\"],\"envVariables\":[\"POSTGRES_PASSWORD=postgres\"]}"}
+{"level":"info","message":"[DOCKER-SERVICE] 9937e0e1a35a10a089be6acddd6cdd2d3c7675179c55c86ff5c4a1f0b31dd506"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker version 20.10.17, build 100c701"}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry deployment in process..."}
+{"level":"info","message":"[DOCKER-SERVICE] Docker registry successfully deployed!"}

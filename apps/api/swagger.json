@@ -1,0 +1,75 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "VK8SP REST API",
+    "description": "Documentation for vk8sp REST API",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "host": "localhost:3333",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "Docker",
+      "description": "API for docker service"
+    }
+  ],
+  "schemes": ["http"],
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "paths": {
+    "/runFromCloud": {
+      "post": {
+        "tags": ["Docker"],
+        "summary": "Run Docker image",
+        "parameters": [
+          {
+            "name": "docker image properties",
+            "in": "body",
+            "description": "Image properties to deploy",
+            "schema": {
+              "$ref": "#/definitions/DockerRunSchema"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/DockerRunSchema"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "DockerRunSchema": {
+      "required": ["name", "imageName"],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "imageName": {
+          "type": "string"
+        },
+        "ports": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "envVariables": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
