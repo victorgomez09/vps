@@ -5,7 +5,7 @@
 
 import * as express from 'express';
 import { createServer } from 'http';
-import { dockerEngine } from '@vk8sp/engine';
+import { DockerEngine } from '@vk8sp/engine';
 import { serve, setup } from 'swagger-ui-express';
 import * as swaggerDocument from '../swagger.json';
 
@@ -17,7 +17,7 @@ const server = createServer(app);
 app.use('/docs', serve, setup(swaggerDocument));
 
 (async () => {
-  await dockerEngine.initializeDocker();
+  // await dockerEngine.initializeDocker();
   const port = process.env.port || 3333;
   server.listen(port, () => {
     console.log(`Listening at http://localhost:${port}/api`);

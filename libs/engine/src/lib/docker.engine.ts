@@ -1,18 +1,28 @@
 import { rmSync } from 'fs';
+import { injectable } from 'tsyringe';
 import { DockerRunGit, DockerRunSchema } from '../models/docker.model';
-import { execAsync } from '../utils/child-node.util';
+import { execAsync as execSync } from '../utils/child-node.util';
 import { logger } from '../utils/logger.util';
 import { removeLineBreaker } from '../utils/text.util';
 
-class DockerService {
+@injectable()
+export class DockerEngine {
   async initializeDocker(): Promise<void> {
-    if (!(await this.isDockerRunning())) process.exit(-1);
+    if (!this.isDockerRunning()) process.exit(-1);
     logger.info('[DOCKER-SERVICE] Docker registry deployment in process...');
-    const { stdout: isContainerRegistryRunning } = await execAsync(
-      `docker container inspect -f '{{.State.Running}}' registry`
+
+    const { stdout: isContainerRegistryExists } = await execSync(
+      `docker ps -qa -f name=registry`
     );
-    if (!isContainerRegistryRunning) {
-      const { stderr, stdout } = await execAsync(
+    if (isContainerRegistryExists) {
+      const { stdout: isContainerRegistryRunning } = await execSync(
+        `docker container inspect -f '{{.State.Running}}' registry`
+      );
+      if (removeLineBreaker(isContainerRegistryRunning) !== 'true') {
+        await execSync(`docker start ${isContainerRegistryExists}`);
+      }
+    } else {
+      const { stderr: registryErr, stdout: registryOut } = await execSync(
         'docker run -d \
         -p 5000:5000 \
         --restart=always \
@@ -20,30 +30,53 @@ class DockerService {
         -v /mnt/registry:/var/lib/registry \
         registry:2'
       );
-      if (stderr) {
+      if (registryErr) {
         logger.error(`[DOCKER-SERVICE] Error deploying Docker registry, run it manually:
           docker run -d -p 5000:5000 --restart=always --name registry -v /mnt/registry:/var/lib/registry registry:2`);
+        process.exit(-1);
+      }
+      logger.debug(
+        `[DOCKER-SERVICE] Docker registry output: ${removeLineBreaker(
+          registryOut.toString()
+        )}`
+      );
+    }
+    try {
+      const { stderr: swarmErr, stdout: swarmOut } = await execSync(
+        'docker swarm init'
+      );
+      if (swarmErr) {
+        logger.error(
+          `[DOCKER-SERVICE] Error creating Docker swarm, error: ${removeLineBreaker(
+            swarmErr.toString()
+          )}`
+        );
         process.exit();
       }
       logger.debug(
-        `[DOCKER-SERVICE] Docker registry output: ${removeLineBreaker(stdout)}`
+        `[DOCKER-SERVICE] Docker swarm output: ${removeLineBreaker(
+          swarmOut.toString()
+        )}`
       );
+    } catch (error) {
+      logger.error(`[DOCKER-SERVICE] Error creating Docker swarm: ${error}`);
+      process.exit(-1);
     }
-    logger.info(`[DOCKER-SERVICE] Docker registry successfully deployed!`);
+    logger.info(`[DOCKER-SERVICE] Docker engine started!`);
   }
 
-  async isDockerRunning(): Promise<boolean> {
-    const { stderr, stdout } = await execAsync('docker -v');
+  private async isDockerRunning(): Promise<boolean> {
+    const { stderr, stdout } = await execSync('docker -v');
     if (stderr) {
       logger.error(`[DOCKER-SERVICE] can't connect to Docker`);
       return false;
     }
-    logger.info(`[DOCKER-SERVICE] ${removeLineBreaker(stdout)}`);
+    logger.info(`[DOCKER-SERVICE] ${removeLineBreaker(stdout.toString())}`);
     return true;
   }
 
   async pullImageFromCloudRegistry(imageName: string) {
-    const { stderr, stdout } = await execAsync(`docker pull ${imageName}`);
+    const { stderr, stdout } = await execSync(`docker pull ${imageName}`);
     if (stderr)
       logger.error(`[DOCKER-SERVICE] Error pulling image '${imageName}'`);
     logger.info(`[DOCKER-SERVICE] ${removeLineBreaker(stdout)}`);
@@ -71,7 +104,7 @@ class DockerService {
     if (data.envVariables)
       data.envVariables.forEach((envVariable) => (env += ` -e ${envVariable}`));
 
-    const { stderr, stdout } = await execAsync(
+    const { stderr, stdout } = await execSync(
       `docker run --name ${name} ${ports} ${env} -d ${data.imageName}`
     );
     if (stderr) {
@@ -94,7 +127,7 @@ class DockerService {
       return false;
     }
 
-    const { stderr: gitError, stdout: gitOut } = await execAsync(
+    const { stderr: gitError, stdout: gitOut } = await execSync(
       `mkdir -p /tmp/vk8sp/${data.name} && cd /tmp/vk8sp/${data.name} && git clone ${data.git} .`,
       { shell: 'true' }
     );
@@ -106,7 +139,7 @@ class DockerService {
     logger.info(`[DOCKER-SERVICE] Repository cloned ${gitOut}`);
 
     console.log('name', name);
-    const { stderr, stdout } = await execAsync(
+    const { stderr, stdout } = await execSync(
       `docker build -t ${name} -f /tmp/vk8sp/${data.name}/Dockerfile .`
     );
     if (stderr) {
@@ -120,4 +153,4 @@ class DockerService {
   }
 }
 
-export const dockerEngine = new DockerService();
+export default DockerEngine;

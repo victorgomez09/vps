@@ -1,1 +1,1 @@
-export { dockerEngine } from './lib/docker.engine';
+export { DockerEngine } from './lib/docker.engine';
